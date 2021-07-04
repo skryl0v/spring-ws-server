@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header/>
+	<SOAP-ENV:Body>
+		<ns3:getCountryResponse xmlns:ns3="http://spring.io/guides/gs-producing-web-service">
+			<ns3:country>
+				<name>Spain</name>
+				<population>46704314</population>
+				<capital>Madrid</capital>
+				<currency>EUR</currency>
+			</ns3:country>
+		</ns3:getCountryResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
